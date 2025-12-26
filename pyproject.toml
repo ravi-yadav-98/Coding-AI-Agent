@@ -1,0 +1,19 @@
+[project]
+name = "coding-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asttokens>=3.0.1",
+    "e2b-code-interpreter==2.2.0",
+    "gradio>=5.49.0",
+    "gradio-aicontext==0.0.4",
+    "gradio-browser==0.0.3",
+    "notebook>=7.4.4",
+    "openai==2.4.0",
+    "pillow>=11.3.0",
+    "python-dotenv>=1.1.1",
+    "rich>=14.1.0",
+    "tiktoken>=0.9.0",
+]
